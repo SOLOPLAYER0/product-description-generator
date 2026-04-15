@@ -8,3 +8,4 @@ langchain
 langchain-core
 langchain-huggingface
 python-dotenv
+requests
