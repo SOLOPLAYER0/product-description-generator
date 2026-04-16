@@ -58,7 +58,7 @@ const handleGenerate = async () => {
   setGenerating(true);
 //"http://127.0.0.1:8000/generate"
   try {
-    const res = await fetch("https://product-genie-backend.onrender.com/generate", {
+    const res = await fetch("http://127.0.0.1:8000/generate", {
       method: "POST",
       body: formData,
     });
